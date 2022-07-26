@@ -1,5 +1,5 @@
 # epubify
-![CI](https://github.com/danrog303/epubify/actions/workflows/tests.yml/badge.svg)
+![CI](https://github.com/danrog303/epubify/actions/workflows/ci.yml/badge.svg)
 ![Activity](https://shields.io/github/last-commit/danrog303/epubify)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20📝%20🏗️-FFDD67.svg)
 > Java library for easy ebook creating.
