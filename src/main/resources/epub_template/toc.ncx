@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="pl-PL">
+    <head>
+        <meta name="uid" content="9788363650971"/>
+        <meta name="dtb:depth" content="2"/>
+    </head>
+    <docTitle>
+        <text>!BOOK_TITLE!</text>
+    </docTitle>
+    <navMap>
+        !NAV_POINTS!
+        <!--<navPoint playOrder="1" id="book-beggining">
+            <navLabel>
+                <text>Beginning</text>
+            </navLabel>
+            <content src="book-beginning.html"/>
+        </navPoint>-->
+    </navMap>
+</ncx>

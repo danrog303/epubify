@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid">
+    <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" 
+        xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>!BOOK_TITLE!</dc:title>
+        <dc:creator opf:role="aut">!BOOK_AUTHOR!</dc:creator>
+        <meta name="cover" content="cover"/>
+    </metadata>
+    <manifest>
+        <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+
+        !TEXT_DECLARATIONS!
+        <!--<item href="book-beginning.html" id="id0" media-type="application/xhtml+xml"/>-->
+
+        <item href="main.css" id="id3" media-type="text/css"/>
+        <item href="toc.ncx" id="id4" media-type="application/x-dtbncx+xml"/>
+
+        <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
+
+        !IMAGE_DECLARATIONS!
+        <!--<item href="images/image-a.jpeg" id="id14" media-type="image/jpeg"/>-->
+    </manifest>
+    <spine toc="id4">
+        !TEXT_IDS!
+        <!--<itemref idref="id0"/>-->
+    </spine>
+    <guide>
+        <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+    </guide>
+</package>

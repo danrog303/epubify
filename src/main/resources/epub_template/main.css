@@ -1,0 +1,62 @@
+﻿p {
+    !INDENT_METHOD!
+    text-align: justify;
+}
+
+p.fullsize-image {
+    text-indent: 0 !important;
+    text-align: center;
+    height: 100%;
+}
+
+img.fullsize-image {
+    text-indent: 0 !important;
+    height: 100%;
+}
+
+.br-after {
+    page-break-after: always;
+}
+
+.br-before {
+    page-break-before: always;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title-bold {
+    text-align: center; 
+    text-indent: 0; 
+    margin: 1.3em;
+    font-weight: bold;
+}
+
+.title-italic {
+    text-align: center; 
+    text-indent: 0; 
+    margin: 1.3em;
+    font-style: italic;
+}
+
+.title {
+    text-align: center; 
+    text-indent: 0; 
+    margin: 1.3em;
+}
+
+.no-indent {
+    text-indent: 0;
+}
+
+.separator {
+    text-indent: 0;
+    font-weight: bold;
+    margin: 0.8em;
+    text-align: center;
+}
