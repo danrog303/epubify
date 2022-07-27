@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 
 /**
- * Downloads cover image and registers it in the epub metadata.
+ * Copies or downloads cover image and registers it in the epub metadata.
  */
 public class CoverWriter extends Writer {
 

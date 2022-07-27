@@ -12,7 +12,7 @@ import java.nio.file.Path;
 
 
 /**
- * Fetches and saves all novel chapters. Adds downloaded chapters to table of contents.
+ * Writes all chapters to epub directory and adds them to the table of contents.
  */
 public class ChapterWriter extends Writer {
 

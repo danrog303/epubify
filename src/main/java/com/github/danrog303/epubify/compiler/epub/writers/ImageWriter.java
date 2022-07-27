@@ -13,7 +13,7 @@ import java.util.Objects;
 import java.util.regex.Pattern;
 
 /**
- * Downloads images that are present in ebook and registers them in the epub metadata."""
+ * Downloads images that are present in ebook and registers them in the epub metadata.
  */
 public class ImageWriter extends Writer {
     public ImageWriter(Ebook ebook, File epubDirectory, EbookOptions ebookOptions) {
