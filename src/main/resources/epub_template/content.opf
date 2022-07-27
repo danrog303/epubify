@@ -4,6 +4,7 @@
         xmlns:opf="http://www.idpf.org/2007/opf">
         <dc:title>!BOOK_TITLE!</dc:title>
         <dc:creator opf:role="aut">!BOOK_AUTHOR!</dc:creator>
+        <dc:description>!BOOK_DESCRIPTION!</dc:description>
         <meta name="cover" content="cover"/>
     </metadata>
     <manifest>

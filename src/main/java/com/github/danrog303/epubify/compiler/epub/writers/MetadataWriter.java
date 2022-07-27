@@ -27,6 +27,7 @@ public class MetadataWriter extends Writer {
         tocNcxContent.replaceAll("!BOOK_TITLE!", this.getEbookInstance().getName());
         contentOpfContent.replaceAll("!BOOK_TITLE!", this.getEbookInstance().getName());
         contentOpfContent.replaceAll("!BOOK_AUTHOR!", this.getEbookInstance().getAuthor());
+        contentOpfContent.replaceAll("!BOOK_DESCRIPTION!", this.getEbookInstance().getDescription());
 
         FileUtils.writeStringToFile(contentOpfFile, contentOpfContent.build(), "UTF-8", false);
         FileUtils.writeStringToFile(tocNcxFile, tocNcxContent.build(), "UTF-8", false);
