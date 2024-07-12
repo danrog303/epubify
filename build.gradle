@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.github.danrog303.epubify'
+group 'com.github.danrog303'
 version '1.0'
 
 repositories {
@@ -27,7 +27,7 @@ test {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.github.danrog303.epubify'
+            groupId = 'com.github.danrog303'
             artifactId = 'epubify'
             version = "1.0"
             pom {
