@@ -23,3 +23,19 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.danrog303.epubify'
+            artifactId = 'epubify'
+            version = "1.0"
+            pom {
+                description = 'ebook creation library'
+            }
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
